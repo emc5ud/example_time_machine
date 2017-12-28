@@ -1,0 +1,44 @@
+{
+  "sort_by": "filename",
+  "source": {
+    "type": "images",
+    "images": [
+      [
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2001.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2002.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2003.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2004.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2005.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2006.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2007.jpg",
+        "/Users/eculbertson/astraea/ciff_vis/scoregeotiff/scored-2008.jpg"
+      ]
+    ],
+    "capture_times": [
+      [
+        0,
+        5,
+        7.5,
+        10,
+        12.5,
+        15,
+        17.5,
+        20
+      ]
+    ],
+    "capture_time_parser": "/private/var/folders/qn/rxljqvb93c52q7cwqrw37q8h0000gp/T/AppTranslocation/76B018D7-73F6-4EEF-B5C2-C2D026738729/d/Time Machine Creator.app/Contents/ct/extract_exif_capturetimes.rb",
+    "tilesize": 512
+  },
+  "videosets": [
+    {
+      "type": "h.264",
+      "label": "480p",
+      "size": [
+        854,
+        480
+      ],
+      "compression": 26,
+      "fps": "1"
+    }
+  ]
+}
