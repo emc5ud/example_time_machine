@@ -54,6 +54,29 @@
     </script>
   </head>
   <body>
-    <div id="timeMachine"></div>
+    <div id="timeMachine" style="margin: 20 auto;margin-bottom:0;width:300px;"></div>
+    <script type="text/javascript">
+    var dim = (function () {
+      var _pW, _pH;
+      if (document.body && document.body.offsetWidth) {
+        _pW = document.body.offsetWidth;
+        _pH = document.body.offsetHeight;
+      }
+      if (document.compatMode == 'CSS1Compat' && 
+          document.documentElement && document.documentElement.offsetWidth) {
+        _pW = document.documentElement.offsetWidth;
+        _pH = document.documentElement.offsetHeight;
+      }
+      if (window.innerWidth && window.innerHeight) {
+        _pW = window.innerWidth;
+        _pH = window.innerHeight;
+      }
+
+      return { width : _pW, height : _pH };
+    })();
+
+    var div = document.getElementById( "the_div" );
+    div.style.height = dim.height - 20 + "px";
+  </script>
   </body>
 </html>
