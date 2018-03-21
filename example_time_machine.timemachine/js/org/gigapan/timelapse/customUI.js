@@ -511,7 +511,7 @@ if (!org.gigapan.timelapse.Timelapse) {
       }).click(function() {
         // Due to playback issues, we are not allowing the "slow" option for Safari users
         if (isSafari) {
-          timelapse.setPlaybackRate(1, null, true);
+          timelapse.setPlaybackRate(10, null, true);
           $customControl.prepend($fastSpeed);
           $fastSpeed.stop(true, true).show();
           UTIL.addGoogleAnalyticEvent('button', 'click', 'viewer-set-speed-to-fast');
