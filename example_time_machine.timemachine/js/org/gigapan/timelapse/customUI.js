@@ -497,7 +497,7 @@ if (!org.gigapan.timelapse.Timelapse) {
       $fastSpeed.button({
         text: true
       }).click(function() {
-        timelapse.setPlaybackRate(0.5, null, true);
+        timelapse.setPlaybackRate(0.01, null, true);
         $customControl.prepend($mediumSpeed);
         $mediumSpeed.stop(true, true).show();
         $fastSpeed.slideUp(300);
