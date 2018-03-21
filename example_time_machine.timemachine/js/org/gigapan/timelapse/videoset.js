@@ -137,7 +137,7 @@ if (!window['$']) {
     var activeVideos = {};
     var inactiveVideos = {};
     var currentlyShownVideo = null;
-    var playbackRate = 1;
+    var playbackRate = 10;
     var id = 0;
     var fps = 25;
     var isSplitVideo = false;
